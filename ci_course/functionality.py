@@ -41,3 +41,6 @@ def minimum(*args):
             the_min = min(the_min, arg)
 
     return the_min
+
+def test_minimu():
+    assert ci_course.minimu("hi", "there") is None
